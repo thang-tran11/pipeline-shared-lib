@@ -11,7 +11,9 @@ class Car {
 	}
 	
   	void printOutCar() {
-		script.echo "using script.echo"
+// 		script.echo "using script.echo"
+		
+		script.echo "script:${script}"
   		script.echo "numberOfDoors:${numberOfDoors}"    	
 		script.echo "brand:${brand}"    	
 		script.echo "model:${model}"
